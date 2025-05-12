@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "homepage": "https://github.com/MariaBezdudnaya/SeminarsApp-React",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
@@ -14,9 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "C:\\Users\\remon\\AppData\\Roaming\\npm\\json-server.cmd --watch seminars.json --port 3002",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "server": "C:\\Users\\remon\\AppData\\Roaming\\npm\\json-server.cmd --watch seminars.json --port 3002"
   },
   "eslintConfig": {
     "extends": [
